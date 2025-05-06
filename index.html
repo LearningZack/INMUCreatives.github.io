@@ -6,6 +6,20 @@
     <title>PORTFOLIO WEBSITE</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="cyberpunk.css">
+    <style>
+        /* Ensure the hover works */
+        .section a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .section a:hover h1,
+        .section a:hover p {
+            color: #3da723;
+            text-shadow: 0 0 10px #3da723, 0 0 20px #3da723;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -25,23 +39,31 @@
 
     <main>
         <section id="home" class="section">
-            <h1><a href="home.html">Welcome to my Portfolio</a></h1>
-            <p>My name is Isaac, the founder of I.N.M.U Creatives. Welcome to my portfolio.</p>
+            <a href="home.html">
+                <h1>Welcome to my Portfolio</h1>
+                <p>My name is Isaac, the founder of I.N.M.U Creatives. Welcome to my portfolio.</p>
+            </a>
         </section>
 
         <section id="about" class="section">
-            <h1><a href="about.html">About</a></h1>
-            <p>Learn what this website is about.</p>
+            <a href="about.html">
+                <h1>About</h1>
+                <p>Learn what this website is about.</p>
+            </a>
         </section>
 
         <section id="projects" class="section">
-            <h1><a href="projects.html">Projects</a></h1>
-            <p>Explore the sites I created.</p>
+            <a href="projects.html">
+                <h1>Projects</h1>
+                <p>Explore the sites I created.</p>
+            </a>
         </section>
 
         <section id="contact" class="section">
-            <h1><a href="contacts.html">Contact</a></h1>
-            <p>Connect with me in the digital world.</p>
+            <a href="contacts.html">
+                <h1>Contact</h1>
+                <p>Connect with me in the digital world.</p>
+            </a>
         </section>
     </main>
 
