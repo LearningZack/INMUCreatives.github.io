@@ -170,13 +170,18 @@ section a:hover h1, section a:hover p {
 }
 
 /* Footer design */
-footer {
-    background: rgba(0, 0, 0, 0.9);
-    padding: 10px;
-    box-shadow: 0 0 20px #ffe600;
-    flex-shrink: 0;
-    margin-top: auto; /* This ensures it pushes to the bottom */
-}
+  /* Sticky Footer */
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    color: yellow;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+  }
 
 
 /* Contact page layout */
