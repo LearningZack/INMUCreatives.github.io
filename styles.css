@@ -175,7 +175,9 @@ footer {
     padding: 10px;
     box-shadow: 0 0 20px #ffe600;
     flex-shrink: 0;
+    margin-top: auto; /* This ensures it pushes to the bottom */
 }
+
 
 /* Contact page layout */
 .contact-page {
